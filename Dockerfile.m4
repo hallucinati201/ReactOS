@@ -111,8 +111,8 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Environment
-ENV VM_CPU=2
-ENV VM_RAM=1024M
+ENV VM_CPU=4
+ENV VM_RAM=8192M
 ENV VM_KEYBOARD=en-us
 ENV VM_NET_EXTRA_OPTIONS=
 ENV VM_KVM=true
